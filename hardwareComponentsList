@@ -1,0 +1,14 @@
+
+
+Unit:
+    PayloadHousing:
+        - Items to create a small box area in which to place the scales. This could just be a cardboard box with the scale unit put inside which would simulate most of the variables for the prototype.
+        - Doors a useful addition as movement in the frame might trip the scales and cause issues with the system. However this would need to be tested.
+    Controller:
+        - Ardiuno Uno will serve as the main control unit for the prototype to which the load sensors of the scales will attach and the controller software will be loaded onto. This will serve as the client for the system barring any major redesigs.
+        - Uno features a USB port which will be used for debugging.
+        - An LED or other signal might be useful for testing the system. 
+        - A screen and input method for the ardiuno needs to be sourced.
+    Scales:
+        - Load bar and sensors sourced.
+        - Need to find a plate to serve as a load spreader.
