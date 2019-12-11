@@ -1,0 +1,16 @@
+Due to this being a prototype the requirements are much simpler than would be would needed for a proper system.
+
+These requirements were obtained with spreaking with people who utlise the current NHS methods of perscription collection at various pharmices in England, in addition to my own experience. 
+While this is a small amount of data for the creation of these requirements it serves the purpose to create a proof of concept. 
+
+Software Requirements:
+- Controller components for physical hardware (scales)
+- Debugging/Display components, this will output scale readings to the monitor for development and testing, ideally this component would display to a dedicated screen for the physical terminal.
+- Interface with database, the database will be a contrived element of the prototype. To save time during development a real database will not be used rather a file containing JSON encoded data.
+    However this data must be transmitted in such a manner than it could/should be encrypted.
+
+Hardware Requirements:
+-  Small board computer to act as the prototype machine which will be programmed and the hardware attached to.
+    - Various pinout expansion slots for the hardware to be wired into.
+    - USB connection for debugging.
+- Load sensor euipment to build the scales.
