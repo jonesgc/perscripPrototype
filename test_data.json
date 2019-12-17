@@ -1,0 +1,8 @@
+{
+    "records":[
+        {"id": "01", "fname": "john", "lname": "doe", "perscrips":[
+            {"id":111, "name": "TEST", "weight": 0.5},{"id": 222, "name": "TESTIUM", "weight": 1.5}]
+        },
+        {"id": "02", "fname": "jane", "lname": "dee", "perscrips":[]}
+    ]
+}
